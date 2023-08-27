@@ -1,0 +1,28 @@
+.container{
+
+  width: 60%;
+  background: #fff;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+  margin: 10px auto 10px auto !important;
+  min-height: 100vh;
+}
+.ql-toolbar.ql-snow{
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f3f3f3;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+
+  border: none !important;
+  margin-top: 2px;
+
+  
+  height: 60px;
+
+}
+
+.ql-toolbar.ql-formats.ql-icon {
+  font-size: 50px; /* Adjust the font size to make the icons larger */
+}
