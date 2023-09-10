@@ -48,7 +48,7 @@ const Editor = () => {
   }, []);
 
   useEffect(() => {
-    const socketServer = io("http://localhost:9000"); //  Settig up  connection to the server
+    const socketServer = io("https://google-docs-clone-epv4.onrender.com"); //  Settig up  connection to the server
     setSocket(socketServer); //store socketServer in state variable
 
     return () => {
