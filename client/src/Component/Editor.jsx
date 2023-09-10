@@ -15,6 +15,7 @@ const Component = styled.div`
 const toolbarOptions = [
   ["bold", "italic", "underline", "strike"], // toggled buttons
   ["blockquote", "code-block"],
+  ["image", "video"], // Add the 'image' option
 
   [{ header: 1 }, { header: 2 }], // custom button values
   [{ list: "ordered" }, { list: "bullet" }],
